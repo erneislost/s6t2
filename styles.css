@@ -2,10 +2,17 @@ body {
     background-color: rgb(255, 255, 165);
 }
 
-.image{
+.image {
+    height: 400px;
+}
+
+.image, #mainDiv {
     border: 5px solid green;
     border-radius: 10px;
-    height: 400px;
+}
+
+#mainDiv {
+    padding: 0 10px;
 }
 
 .link-button {
@@ -16,4 +23,8 @@ body {
     padding: 5px;
     border-radius: 5px;
     box-shadow: 2px 3px #888888;
+}
+
+#linkP {
+    margin-top: 12px;
 }
